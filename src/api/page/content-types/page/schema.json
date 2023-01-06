@@ -27,9 +27,22 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "section.section-two-columns"
+        "section.section-two-columns",
+        "section.section-grid",
+        "section.section-content"
       ],
       "required": true
+    },
+    "footer_text": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 2,
+      "maxLength": 255
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.menu"
     }
   }
 }
